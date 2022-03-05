@@ -68,3 +68,5 @@ var digito, pago, tiempo;
 	default:
 		document.write("Digito incorrecto, ingrese nuevamente.",'<BR/>');
 	}
+
+
