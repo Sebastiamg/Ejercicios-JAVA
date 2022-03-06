@@ -5,7 +5,7 @@ var digito, pago, tiempo;
     alert(
     "(1) - 0.15$ por minuto - Estados Unidos                                                   (2) - 0.14$ por minuto - Canada                                                                (3) - 0.25$ por minuto - España                                                                (4) - 0.05$ por minuto - Colombia                                                            (5) - 0.10$ por minuto - Venezuela                                                             (6) - 0.11$ por minuto - Mexico                                                              (7) - 0.12$ por minuto - Argentina                                                             (8) - 0.08$ por minuto - Panama");
     
-	document.write("Escoja la clave hacia a donde llama:",'<BR/>');
+	document.write("<p>Escoja la clave hacia a donde llama:",'<BR/>');
 	document.write("(1) - 0.15$ por minuto - Estados Unidos ",'<BR/>');
 	document.write("(2) - 0.14$ por minuto - Canada",'<BR/>');
 	document.write("(3) - 0.25$ por minuto - España",'<BR/>');
@@ -66,7 +66,7 @@ var digito, pago, tiempo;
 		document.write("Su total a pagar es de: ",pago,"$",'<BR/>');
 		break;
 	default:
-		document.write("Digito incorrecto, ingrese nuevamente.",'<BR/>');
+		document.write("Digito incorrecto, ingrese nuevamente.",'<p>');
 	}
 
 

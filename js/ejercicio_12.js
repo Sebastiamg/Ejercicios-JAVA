@@ -1,14 +1,15 @@
 
-	
-	
-	document.write("Ingrese cualquier Fecha con formato: dd/mm/aaaa",'<BR/>');
+var a, b, d, fecha, m;
+
+	document.write("<p>Ingrese cualquier Fecha con formato: dd/mm/aaaa",'<BR/>');
 	fecha = prompt("Ingrese cualquier Fecha con formato: dd/mm/aaaa");
+	document.write("Ingresaste la fecha: ",fecha,"<br>");
 	if (fecha.length>=11) {
 		document.write("La fecha ingresada es incorrecta",'<BR/>');
 	} else {
-		d = parseInt(String.substring(fecha,0,2));
-		m = Number(String.substring(fecha,4,5));
-		a = Number(String.substring(fecha,7,10));
+		d = fecha.substring(0,2);
+		m = fecha.substring(3,5);
+		a = fecha.substring(6,10);
 		document.write("Dia: ",d,'<BR/>');
 		document.write("Mes: ",m,'<BR/>');
 		document.write("Año: ",a,'<BR/>');
@@ -41,12 +42,10 @@
 					if (d>=1 && d<=30) {
 						document.write("Fecha correcta",'<BR/>');
 					} else {
-						document.write("Fecha Incorrecta",'<BR/>');
+						document.write("Fecha Incorrecta",'</p><BR/>');
 					}
 					break;
 				}
 			}
 		}
 	}
-
-

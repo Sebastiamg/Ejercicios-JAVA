@@ -9,6 +9,6 @@ perimetro = (2*Math.PI) * radio;
 area = Math.PI * (radio * radio);
 
 alert("El area del círculo es: "+area+"\nEl perímetro del círculo es: "+perimetro);
-document.write("Radio: ",radio,"<br>");
+document.write("<p>Radio: ",radio,"<br>");
 document.write("Area: ",area,"<br>");
-document.write("Perímetro: ",perimetro,"<br>");
+document.write("Perímetro: ",perimetro,"<p>");

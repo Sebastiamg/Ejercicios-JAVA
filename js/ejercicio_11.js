@@ -7,4 +7,4 @@ for (let cont = 0; cont <= num; cont++) {
     
 }
 
-document.write("La suma de todos los números del 0 al ",num," es: ",suma);
+document.write("<p>La suma de todos los números del 0 al ",num," es: ",suma,"</p>");

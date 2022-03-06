@@ -1,8 +1,8 @@
 var letra;
 	
 alert("Ingresa una letra y te dire si es consonante o vocal");
-document.write("Ingrese la letra",'<BR/>');
-letra = Number(prompt());
+letra = prompt();
+document.write("<p>Ingrese la letra: ",letra,'<BR/>');
 switch (letra) {
 case "a": case "A":
 	document.write("Es una vocal");
@@ -20,5 +20,5 @@ case "u": case "U":
 	document.write("Es una vocal");
 	break;
 default:
-	document.write("Es una consonante",'<BR/>');
+	document.write("Es una consonante</p>",'<BR/>');
 }

@@ -9,8 +9,8 @@ do {
     num = Math.trunc(num/10);
 } while (num!=0);
 if (a==numero) {
-    document.write("El numero ",numero," es palindromo",'<BR/>');
+    document.write("<p>El numero ",numero," es palindromo",'</p><BR/>');
 } else {
-    document.write("El numero ",numero," no es palindromo",'<BR/>');
+    document.write("<p>El numero ",numero," no es palindromo",'</p><BR/>');
 }
 

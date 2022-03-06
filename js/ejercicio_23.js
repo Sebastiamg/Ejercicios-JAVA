@@ -2,7 +2,7 @@ var num = new Number();
 var contador = new Number();
 var suma = new Number();
 alert("Ingrese un numero")
-document.write("Ingrese un numero",'<BR/>');
+document.write("<p>Ingrese un numero",'<BR/>');
 num = Number(prompt());
 document.write("Numero pares ",'<BR/>');
 for (num=num;num<=20;num++) {
@@ -12,5 +12,5 @@ for (num=num;num<=20;num++) {
         suma = suma+contador;
     }
 }
-document.write("Suma pares: ",suma,'<BR/>');
+document.write("Suma pares: ",suma,'<p>');
 

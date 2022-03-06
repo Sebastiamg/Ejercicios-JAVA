@@ -5,7 +5,7 @@
 	var n = new Number();
 	acum = 1;
 	suma = 0;
-	document.write("Ingrese el número de notas que desea promediar ",'<BR/>');
+	document.write("<p>Ingrese el número de notas que desea promediar ",'<BR/>');
 	notas = Number(prompt("Ingrese el número de notas que desea promediar "));
 	while (acum<=notas) {
 		n = Number(prompt("Ingrse la nota"));
@@ -14,5 +14,5 @@
 		acum = acum+1;
 	}
 	prom = suma/notas;
-	document.write("Su promedio es : ",prom,'<BR/>');
+	document.write("Su promedio es : ",prom,'<p>');
 

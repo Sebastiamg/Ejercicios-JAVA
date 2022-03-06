@@ -3,7 +3,7 @@ var numpares = new Number();
 var numimpares = new Number();
 var contador = new Number();
 num = Number(prompt("Ingrese un número:"));
-document.write("INGRSE UNA NUMERO: ",num,'<BR/>');
+document.write("<p>INGRSE UNA NUMERO: ",num,'<BR/>');
 numpares = 0;
 numimpares = 0;
 	for (contador=1;contador<=num;contador++) {
@@ -14,4 +14,4 @@ numimpares = 0;
 		}
 	}
 document.write("Suma de pares es : ",numpares,'<BR/>');
-document.write("Suma de impares es : ",numimpares,'<BR/>');
+document.write("Suma de impares es : ",numimpares,'<p>');

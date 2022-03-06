@@ -4,10 +4,6 @@
     text-decoration: none;
 }
 
-document.write {
-    font-size: 50px;
-}
-
 img {
     max-width: 100%;
 }
@@ -26,11 +22,13 @@ h1 {
     margin: 0px 0px 0px -20px;
     padding: 50px;
     border-bottom: 5px solid rgb(14, 4, 31);
+    position: sticky;
+    top: 0;
 }
 
 h2 {
     color: rgb(204, 201, 201);
-    
+    text-shadow: 3px 3px 0px rgb(48, 49, 48);
     font-size: 31px;
 }
 
@@ -60,4 +58,12 @@ a {
     border-radius: 5px;
     box-shadow: 3px 3px 5px rgb(0, 0, 0);
     padding-top: 30px;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    line-height: 30px;
 }

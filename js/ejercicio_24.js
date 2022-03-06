@@ -6,7 +6,7 @@ a = 0;
 b = 0;
 while (x<=100) {
     if (x%2==0) {
-        document.write("Numeros multiplos de 2: ",x,'<BR/>');
+        document.write("<p>Numeros multiplos de 2: ",x,'<BR/>');
         a = a + 1;
     }
     if (x%3==0) {
@@ -16,4 +16,4 @@ while (x<=100) {
     x = x+1;
 }
 document.write("cantidad números pares:",a,'<BR/>');
-document.write("cantidad números impares:",b,'<BR/>');
+document.write("cantidad números impares:",b,"</p>",'<BR/>');

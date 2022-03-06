@@ -1,7 +1,7 @@
 
 	var a, b, c, n1, n2, n3;
     alert("Ingrese 3 números para ordenarlos: ")
-	document.write("Ingrese 3 numeros para ordenarlos",'<BR/>');
+	document.write("<p>Ingrese 3 numeros para ordenarlos",'<BR/>');
 	
 	n1 = prompt("Numero 1");
     document.write("Numero 1: ",n1,'<BR/>');
@@ -44,4 +44,4 @@
 		}
 	}
 	document.write("Ascendente : ",c,", ",b,", ",a,'<BR/>');
-	document.write("Descendente : ",a,", ",b,", ",c,'<BR/>');
+	document.write("Descendente : ",a,", ",b,", ",c,'<p>');

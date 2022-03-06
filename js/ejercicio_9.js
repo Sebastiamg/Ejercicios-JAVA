@@ -1,6 +1,6 @@
 
 let nomb = prompt("Ingrese el nombre del estudiante");
-	document.write("Ingrese el nombre del estudiante",'<BR/>');
+	document.write("<p>Ingrese el nombre del estudiante",'<BR/>');
     document.write(nomb,'<br>')
 
 let nota = parseInt(prompt("Ingrese la nota del estudiante"));
@@ -23,7 +23,7 @@ let nota = parseInt(prompt("Ingrese la nota del estudiante"));
 					if (nota==10) {
 						document.write("El estudiante ",nomb," Esta becado",'<BR/>');
 					} else {
-						document.write("Ingrese una nota del 0 al 10.",'<BR/>');
+						document.write("ERROR: Ingrese una nota del 0 al 10.</p>",'<BR/>');
 					}
 				}
 			}

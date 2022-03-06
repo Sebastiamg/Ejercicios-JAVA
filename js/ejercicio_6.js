@@ -1,13 +1,11 @@
-
-
 	var nombre, nota1, nota2, nota3, suma;
 	
     alert("ingrese las notas hasta 100 y el nombre dele estudiante");
-	document.write("ingrese las notas hasta 100 y el nombre dele estudiante",'<BR/>');
+	document.write("<p>ingrese las notas hasta 100 y el nombre dele estudiante",'<BR/>');
 
     alert("Nombre del Estudiante");
-	document.write("Nombre del Estudiante",'<BR/>');
 	nombre = prompt();
+	document.write("Nombre del Estudiante: ",nombre,'<BR/>');
 
     alert("Ingrese 3 Notas del Estudiante");
 	document.write("Ingrese las notas del Estudiante",'<BR/>');
@@ -29,7 +27,7 @@
 		document.write("El estudiante ",nombre," esta Reprobado",'<BR/>');
 	}
 	if (suma>=70) {
-		document.write("El estudiante ",nombre," esta Aprobado",'<BR/>');
+		document.write("El estudiante ",nombre," esta Aprobado<p>",'<BR/>');
 	}
 
 

@@ -1,7 +1,7 @@
 var a, b, c, num1, num2, num3;
 
 alert("Ingrese 3 números.")
-document.write("Ingrese 3 números.",'<BR/>');
+document.write("<p>Ingrese 3 números.",'<BR/>');
 num1 = prompt();
 num2 = prompt();
 num3 = prompt();
@@ -35,5 +35,5 @@ if ((num3>=num1) && (num3>=num2)) {
         b = num2;
         c = num3;
     }
-    document.write("El numero intermedio es: ",b,'<BR/>');
+    document.write("El numero intermedio es: ",b,'<p>');
 }

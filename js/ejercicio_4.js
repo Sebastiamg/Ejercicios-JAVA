@@ -1,7 +1,7 @@
 var cantidadproducto, descuento, nombreproducto, precioproducto, resta, subtotal;
 	
 alert("Producto");
-document.write("Producto: ",'<BR/>');
+document.write("<p>Producto: ",'<BR/>');
 nombreproducto = prompt();
 document.write(nombreproducto,'<br>');
 
@@ -21,6 +21,6 @@ document.write("Subtotal: ",subtotal,'<BR/>');
 descuento = subtotal*0.1;
 document.write("Descuento del 10%: ",descuento,'<BR/>');
 resta = subtotal-descuento;
-document.write("Total: ",resta,'<BR/>');
+document.write("Total: ",resta,"</p>",'<BR/>');
 
 

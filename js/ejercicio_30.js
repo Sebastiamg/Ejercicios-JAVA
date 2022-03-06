@@ -1,7 +1,7 @@
 var acumulador, cont, i, j, k, m, num;
-// REALIZAR UN PROGRAMA QUE MUESTRE LA SIGUIENTE SERIE GRAFICA
+
 alert("Ingrese un número")
-document.write("Ingrese un número",'<BR/>');
+document.write("<p>Ingrese un número",'<BR/>');
 num = prompt();
 if (num<3) {
     document.write("Ingresar números mayores a 3",'<BR/>');
@@ -25,6 +25,7 @@ if (num<3) {
         }
         document.write(acumulador,'<BR/>');
     }
+    document.write("</p>");
 }
 
     

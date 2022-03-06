@@ -11,4 +11,4 @@ total2 = porcentaje2 * 100;
 
 alert("Porcetaje de alumnos APROBADOS: "+total1+"%"+"\nPorcentaje de alumnos REPROBADOS: "+total2+"%");
 
-document.write("Porcetaje de alumnos APROBADOS: "+total1,"%","<br>","Porcentaje de alumnos REPROBADOS: "+total2,"%");
+document.write("<p>Porcetaje de alumnos APROBADOS: "+total1,"%","<br>","Porcentaje de alumnos REPROBADOS: "+total2,"%</p>");
