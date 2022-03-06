@@ -13,7 +13,6 @@ var a, b, d, fecha, m;
 		document.write("Dia: ",d,'<BR/>');
 		document.write("Mes: ",m,'<BR/>');
 		document.write("Año: ",a,'<BR/>');
-		// año bisiesto
 		if ((1582<=a && a<=3000) && (m>0 && m<=12) && (d>=1 && d<=31)) {
 			if ((a%4)==0 && (a%100)!=0 || (a%400)==0) {
 				document.write("Es año Bisiesto",'<BR/>');

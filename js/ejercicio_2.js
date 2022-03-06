@@ -11,6 +11,6 @@ num2 = Number(prompt());
 suma = num1+num2;
 alert("La suma es: "+suma);
 
-document.write("<p>Ingrese 2 numeros para sumarlos",'<BR/>');
-document.write(num1," + ",num2,'<br>');
+document.write("<p>Ingrese 2 numeros para sumarlos</p>",'<BR/>');
+document.write("<p>",num1," + ",num2,'<br>');
 document.write("La suma es: ",suma,"</p>");
